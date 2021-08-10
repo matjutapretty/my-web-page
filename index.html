@@ -5,13 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Plain Webpage </title>
+    <link rel="shortcut icon" href="e43b851037804a8c9731d36bb3eab7dd_480.png" type="image/png">
 </head>
 <body>
+
+    <style>
+body {
+background-color: #ffafcc;
+        }
+table, th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+  border-color: #080808;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: center;
+  font-size: medium;
+  font-weight: 15em;
+}
+td {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+}
+table {
+  border-spacing: 5px;
+  object-position: center;
+}
+.places {
+    display: flex;
+    flex: 1;
+    font-size: 13px;
+}
+.place1 {
+  flex: 1;
+}
+.place2 {
+  flex: 1;
+} 
+.place3 {
+  flex: 1;
+}
+
+    </style>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="my-webpage.html">FlexBox Page</a>
+    <a href="my-webpage-grid.html">SimpleGrid Page</a>
+</div>
   
+  <div class="pretty">
     <h1> Matjuta Pretty </h1>
         
         <div class="image">
             <img src="Pretty.png" width="150" class="left"> 
+        </div>
         </div>
 
     <h2>Which City</h2>
@@ -31,15 +83,46 @@
 
 <h2> Foreign Language </h2>
 <div>
-I want to learn these languages because I have international friends. Some are French and others are Portuguese
-<div>
-1. French
-</div>
-2. Portuguese
-</div>
+    <div>
+    I want to learn Portuguese because I have a Portuguese friend and his family does not know English too well, I want to be able to communicate with them when I go visit.
+        </div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+        
+            <table style="width:50%" class="center">
+                <tr>
+                  <th> English Phrases </th>
+                  <th> Portuguese Phrases </th>
+                </tr>
+        
+                <tr>
+                  <td>Hello!</td>
+                  <td>Olá  </td>
+                </tr>
+        
+                <tr>
+                  <td> How are you doing? </td>
+                  <td> como você está? </td>
+                </tr>
+        
+                <tr>
+                    <td> It was a pleasure meeting you! </td>
+                    <td> Foi um grande prazer conhecê-lo! </td>
+                  </tr>
+        
+              </table>
+        
+            </div>
+            </div>
 
 <h2> Historical Places in Limpopo </h2>
 
+<div class="places">
+
+<div class="place1">
 <h3> Debengeni Falls </h3>
 
 <img src="Debengeni falls.png" width="150" class="center">
@@ -51,7 +134,9 @@ I want to learn these languages because I have international friends. Some are F
 </div>
 - Hiking and rare species of birds
 </div>
+</div>
 
+<div class="place2">
 <h3> Mapungubwe National Park </h3>
 
 <img src="Mapungubwe.png" width="150" class="center">
@@ -63,7 +148,9 @@ I want to learn these languages because I have international friends. Some are F
 </div>
 - Game Drives
 </div>
+</div>
 
+<div class="place3">
 <h3> Arend Dieperink Museum </h3>
 
 <img src="Arend-Dieperink-Museum.png" width="150" class="center">
@@ -74,6 +161,9 @@ I want to learn these languages because I have international friends. Some are F
 - It contains a three-million-year-old human predecessor, Australothipicus africanus, found at the nearby Makapan's Cave.
 </div>
 - The display is a replica of a bushveld house, a "Caves through the Ages" exhibition as well as old farm implements and modes of transport.
+</div>
+</div>
+
 </div>
 
 </div>
